@@ -19,7 +19,15 @@ namespace Sinaq
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = "Salam qaqas necesen? ele bildim cucesen :)";
+            if (checkBox1.Checked)
+            {
+                label1.Text = "Salam qaqas necesen? ele bildim cucesen :)";
+            }
+            if(checkBox2.Checked)
+            {
+                label1.Text = "Agilli olun hormetli olun :)";
+            }
+           
         }
     }
 }
