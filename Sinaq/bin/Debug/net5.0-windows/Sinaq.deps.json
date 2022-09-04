@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Sinaq/1.0.0": {
+        "dependencies": {
+          "Git-Windows-Minimal": "2.37.3"
+        },
+        "runtime": {
+          "Sinaq.dll": {}
+        }
+      },
+      "Git-Windows-Minimal/2.37.3": {}
+    }
+  },
+  "libraries": {
+    "Sinaq/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Git-Windows-Minimal/2.37.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pMtQeoZ/XMTgSTH0hwjLnQFPu2dhNhmk41E18F0fRayjdI2v5SIek6qKvwd0jX6AuD2Er5jflmTMmtctEEicvQ==",
+      "path": "git-windows-minimal/2.37.3",
+      "hashPath": "git-windows-minimal.2.37.3.nupkg.sha512"
+    }
+  }
+}
